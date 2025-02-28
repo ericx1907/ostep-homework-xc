@@ -1,0 +1,11 @@
+[
+  {
+    "directory": "/home/ericx/ostep-homework-xc/cpu-api",
+    "arguments": [
+      "gcc",
+      "-Wall",
+      "-I/usr/include"
+    ],
+    "file": "cpu-api/capi_p1.c"
+  }
+]
