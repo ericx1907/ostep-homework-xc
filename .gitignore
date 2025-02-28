@@ -1,4 +1,4 @@
 **/.cache/
 
 #Do not ignore c source file
-!**/*.c
+/*/build/
