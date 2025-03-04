@@ -6,6 +6,6 @@
       "-Wall",
       "-I/usr/include"
     ],
-    "file": "cpu-api/capi_p1.c"
+    "file": "p1_2.c"
   }
 ]
