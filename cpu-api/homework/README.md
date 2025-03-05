@@ -54,3 +54,5 @@ $ Parent: the value of x is 12 at 0x7ffdc17098f8, (pid: 3574845)
   address spaces of child and parent are mapped onto different physical addresses
   and as a result, `x` at the same virtual address in child and parent have
   different values.
+
+[1]: https://en.wikipedia.org/wiki/Copy-on-write
