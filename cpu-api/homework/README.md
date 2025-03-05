@@ -7,7 +7,7 @@ the child and parent change the value of `x`?
 
 * The value of x in the child process will have the same value as the one in parent
   process
-    
+
 ```c
 #include <stdio.h>
 #include <stdlib.h>
@@ -44,7 +44,7 @@ $ Child: the value of x is 11 at 0x7ffdc17098f8, (pid: 3574846)
 $ Parent: the value of x is 12 at 0x7ffdc17098f8, (pid: 3574845)
 ```
 
-   
+
 * In the code above, `x` is statically allocated (on parent process stack). `x` is
   modified in both child and parent process. As we can see in the run result
   changing `x` in child process does not affect the `x` value in parent process.
@@ -53,7 +53,4 @@ $ Parent: the value of x is 12 at 0x7ffdc17098f8, (pid: 3574845)
   copied from parent's address space (In reality it uses [copy-on-write][1]). The
   address spaces of child and parent are mapped onto different physical addresses
   and as a result, `x` at the same virtual address in child and parent have
-  different values. 
-
-
-    
+  different values.
